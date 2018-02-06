@@ -16,11 +16,12 @@
 title: Pilz's Page
 email: andrea.pilzer@unitn.it
 description: #> # this means to ignore newlines until "baseurl:"
-  Hi, I'm Andrea Pilzer, 1st year PhD student at the University of Trento (Italy) and player of the Italian Curling National team. Focusing on computer vision, deep learning and natural language processing at the MHUG group. My supervisors are Prof. Nicu Sebe and Elisa Ricci. 
+  Hi, I'm Andrea Pilzer, 2nd year PhD student at the University of Trento (Italy) and player of the Italian Curling National team. Focusing on computer vision, deep learning and natural language processing at the MHUG group. My supervisors are Prof. Nicu Sebe and Elisa Ricci. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  andrea-pilzer
+#googlescholar: https://scholar.google.com/citations?user=zooORRsAAAAJ&hl=en
 
 google_analytics: UA-104223419-1
 
@@ -29,6 +30,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
