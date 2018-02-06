@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Olympics"
+date:   2018-31-01 12:26:05 +0200
+categories: jekyll update
+---
+
+I'll be on leave for the whole February to compete in the 2018 Winter Olympics in Korea as member of the Italian Curling Team.
