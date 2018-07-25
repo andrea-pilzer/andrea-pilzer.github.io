@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Paper Accepted at 3DV2018"
+date:   2018-07-25 21:21:08 +0200
+categories: jekyll update
+---
+
+Our paper "Unsupervised Adversarial Depth Estimation using Cycled Generative Networks" has been accepted at the 3DV2018 Conference in Verona.
+Arxiv and Code coming soon.
