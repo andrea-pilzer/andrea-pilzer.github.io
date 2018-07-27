@@ -8,4 +8,5 @@ categories: jekyll update
 ![cvprlogo](/assets/3dv_logo_c_opt.png){:class="img-responsive"}
 
 My paper "Unsupervised Adversarial Depth Estimation using Cycled Generative Networks" has been accepted at the 3DV2018 Conference in Verona.
-Arxiv preprint and Code coming soon.
+Arxiv preprint coming soon.
+[Code](https://github.com/andrea-pilzer/unsup-stereo-depthGAN)
