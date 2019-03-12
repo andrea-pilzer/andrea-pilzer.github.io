@@ -9,4 +9,4 @@ categories: jekyll update
 
 My new paper "Refine and Distill: Exploiting Cycle-Inconsistency and Knowledge Distillation for Unsupervised Monocular Depth Estimation" has been accepted at the CVPR2019 Conference in Long Beach, CA.
 
-Arxiv Prepring and Code coming soon!!
+[Arxiv Preprint](https://arxiv.org/abs/1903.04202) is available, code coming soon!!
