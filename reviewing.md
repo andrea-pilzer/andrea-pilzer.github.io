@@ -7,6 +7,7 @@ permalink: /reviewing/
 Journal/Conference Reviewer
 
 
+- ACM-MM 2019
 - Understanding Subjective Attributes of Data (USAD) CVPR2019 Workshop
 - IEEE Transactions on Multimedia (TMM)
 - IEEE Access
