@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Paper Accepted at 3DV2019"
+title:  "[Oral!] Paper Accepted at 3DV2019"
 date:   2019-08-06 15:47:43 +0200
 categories: jekyll update
 ---
 
 ![3dv19logo](/assets/3dv19.png){:class="img-responsive"}
 
-The paper with Mihai and Dan "Structured Coupled Generative Adversarial Networks for Unsupervised Monocular Depth Estimation" has been accepted at the 3DV2019 Conference in Quebeq City.
+The paper with Mihai and Dan "Structured Coupled Generative Adversarial Networks for Unsupervised Monocular Depth Estimation" has been accepted as Oral at the 3DV2019 Conference in Quebeq City.
 
 Arxiv coming soon!
