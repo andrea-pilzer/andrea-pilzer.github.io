@@ -9,4 +9,4 @@ categories: jekyll update
 
 The paper with Mihai and Dan "Structured Coupled Generative Adversarial Networks for Unsupervised Monocular Depth Estimation" has been accepted as Oral at the 3DV2019 Conference in Quebeq City.
 
-Arxiv coming soon!
+[Arxiv Preprint](https://arxiv.org/abs/1908.05794)
