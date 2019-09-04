@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "PAMI Journal Accepted!!!!!"
+date:   2019-09-04 19:08:55 +0200
+categories: jekyll update
+---
+
+My T-PAMI submission "Progressive Fusion for Unsupervised Binocular Depth Estimation using Cycled Networks" has been accepted!!!
+Thanks to Stephane, Elisa, Mihai, Nicu and Dan for the great job!
+
+[Arxiv Preprint]() Coming soon...
+[Code]()
