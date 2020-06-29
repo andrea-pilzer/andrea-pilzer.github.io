@@ -7,8 +7,10 @@ permalink: /reviewing/
 Journal/Conference Reviewer
 
 
-- BMVC 2019
-- ACM-MM 2019
+- CVPR 2020
+- ECCV 2020
+- BMVC 2019, 2020
+- ACM-MM 2019, 2020
 - ICIAP 2019
 - Understanding Subjective Attributes of Data (USAD) CVPR2019 Workshop
 - IEEE Transactions on Multimedia (TMM)
