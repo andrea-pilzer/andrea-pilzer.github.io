@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pilz's Page
-email: andrea.pilzer@unitn.it
+email: [andrea]dot[pilzer]at[aalto]dot[fi]
 description: #> # this means to ignore newlines until "baseurl:"
-  Hi, I'm Andrea Pilzer, 3rd year PhD student at the University of Trento (Italy) and player of the Italian Curling National team. Focusing on computer vision, deep learning and natural language processing at the MHUG group. My supervisors are Prof. Nicu Sebe and Prof. Elisa Ricci. 
+  Hi, I'm Andrea Pilzer, postdoctoral researcher at Aalto University (Finland). Focusing on computer vision and deep learning. My supervisors are Prof. Juho Kannala and Prof. Arno Solin. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
