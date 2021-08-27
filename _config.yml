@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pilz's Page
-email: [andrea]dot[pilzer]at[aalto]dot[fi]
+email: andreadotpilzer@aaltodotfi
 description: #> # this means to ignore newlines until "baseurl:"
   Hi, I'm Andrea Pilzer, postdoctoral researcher at Aalto University (Finland). Focusing on computer vision and deep learning. My supervisors are Prof. Juho Kannala and Prof. Arno Solin. 
 baseurl: "" # the subpath of your site, e.g. /blog
