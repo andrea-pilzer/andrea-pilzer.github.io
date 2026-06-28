@@ -1,9 +1,8 @@
 ---
 title: Experience
 permalink: /experience/
-eyebrow: Career
-hide_title: true
-intro: From computer-vision research to building and deploying genAI.
+hide_header: true
+compact_page: true
 ---
 
 <div class="timeline">
