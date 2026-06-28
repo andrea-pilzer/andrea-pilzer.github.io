@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Andrea Pilzer, home">
+      <span class="brand-mark" aria-hidden="true">AP</span>
+      <span class="brand-name">Andrea Pilzer</span>
+      <span class="brand-role">Solutions Architect at NVIDIA</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/experience/' | relative_url }}"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Experience</a>
+      <a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' or page.layout == 'post' %} aria-current="page"{% endif %}>News</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>

@@ -1,45 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Andrea Pilzer
+tagline: Solutions Architect · Generative AI Training & Inference
+description: >-
+  Andrea Pilzer is a Solutions Architect at NVIDIA focused on generative AI
+  training and inference.
+url: "https://andrea-pilzer.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Rome
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Pilz's Page
-email: andreadotpilzer@aaltodotfi
-description: #> # this means to ignore newlines until "baseurl:"
-  Hi, I'm Andrea Pilzer, postdoctoral researcher at Aalto University (Finland). Focusing on computer vision and deep learning. My supervisors are Prof. Juho Kannala and Prof. Arno Solin. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  andrea-pilzer
-googlescholar: https://scholar.google.com/citations?user=zooORRsAAAAJ&hl=en
+author:
+  name: Andrea Pilzer
 
-google_analytics: UA-104223419-1
+social:
+  github: https://github.com/andrea-pilzer
+  scholar: https://scholar.google.com/citations?user=zooORRsAAAAJ&hl=en
+  linkedin: https://it.linkedin.com/in/andrea-pilzer-691648196
 
-# Build settings
+# Add the token from Cloudflare Web Analytics when the site is registered.
+cloudflare_analytics_token: ""
+
 markdown: kramdown
-theme: minima
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+feed:
+  path: feed.xml
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,24 +1,35 @@
 ---
-layout: page
 title: About
 permalink: /about/
+hide_header: true
 ---
 
-I'm Andrea Pilzer, postdoctoral researcher at the Computer Science Department of Aalto University in FInland, where I am founded by [FCAI](https://fcai.fi/). I grew up in [Cembra Valley](https://www.visitpinecembra.it/en/discover-the-territory/food-and-wine/terraced-vineyards) a very steep and famous wine producing area near Trento, Italy.
+<div class="about-grid">
+  <div>
+    <h2>About me</h2>
+  </div>
+  <div>
+    <p>I’m Andrea Pilzer, a Solutions Architect at NVIDIA based in Italy, focusing on generative AI training and inference. Previously, I worked on uncertainty estimation at Aalto University and domain adaptation at Huawei Technologies Ireland. I completed my PhD at the University of Trento, researching stereo matching, depth estimation, and deep learning.</p>
+  </div>
+</div>
+<div class="about-grid ruled-block" id="research">
+  <div>
+    <h2>Research</h2>
+  </div>
+  <div>
+    <p>My research spans computer vision, deep learning, domain adaptation, depth estimation, and uncertainty estimation.</p>
+    <p>I am a co-organizer of the <a href="https://uncertainty-cv.github.io/">UNCV (Uncertainty Quantification for Computer Vision)</a> workshop series, that we propose annually at major computer vision conferences.</p>
+    <p>I regularly review/reviewed for major machine-learning and computer-vision venues, including NeurIPS, ICLR, CVPR, ECCV, ACM Multimedia, and IEEE Transactions on Multimedia.</p>
+    <p><a class="text-link" href="{{ site.social.scholar | escape }}">View publications on Google Scholar <span aria-hidden="true">↗</span></a></p>
+  </div>
+</div>
 
-Currently I'm focusing on dense regression problems as depth estimation and on the broad problem of domain adaptation for deep learning based models. I work at AaltoVision group with Prof. [Juho Kannala](https://users.aalto.fi/~kannalj1/) and AaltoML group with Prof. [Arno Solin](https://users.aalto.fi/~asolin/). My research interests are in deep learning, computer vision and natural language processing.
-
-I worked towards my Ph.D. degree in the [MHUG research](http://mhug.disi.unitn.it/#/) group under the supervision of Prof. Nicu Sebe and Prof. Elisa Ricci at the University of Trento. After that I was a computer vision researcher at Huawei Technologies Ireland for two years. 
-
-<!--- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->
+<div class="about-grid ruled-block" id="beyond-work">
+  <div>
+    <h2>Beyond work</h2>
+  </div>
+  <div>
+    <p>I grew up in the very steep and beautiful <a href="https://www.visitfiemme.it/it/territorio/val-di-cembra/scopri-la-valle">Cembra Valley</a> in the Dolomites, Italy.</p>
+    <p>I have always loved sport, from cross-country and downhill skiing to curling. With friends, I formed Team Trentino curling. We became Italian men’s champions several times, represented the Italian national team at European and world championships, and competed at the 2018 Winter Olympics in PyeongChang.</p>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="page{% if page.compact_page %} page-compact{% endif %} shell">
+  {% unless page.hide_header %}
+    <header class="page-header">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      {% unless page.hide_title %}<h1>{{ page.title }}</h1>{% endunless %}
+      {% if page.intro %}<p class="page-intro">{{ page.intro }}</p>{% endif %}
+    </header>
+  {% endunless %}
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

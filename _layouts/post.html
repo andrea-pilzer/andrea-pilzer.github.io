@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post shell-narrow">
+  <header class="post-header">
+    <a class="back-link" href="{{ '/news/' | relative_url }}"><span aria-hidden="true">←</span> News</a>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="prose post-content">
+    {{ content }}
+  </div>
+</article>
