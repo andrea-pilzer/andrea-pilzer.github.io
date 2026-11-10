@@ -5,9 +5,23 @@ layout: default
   <div class="shell hero-grid">
     <div class="hero-copy">
       <p class="hero-summary">I work as a Solutions Architect at NVIDIA supporting customers with distributed HPC clusters to train and serve AI models.</p>
-      <div class="button-row">
-        <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Experience</a>
-      </div>
+      <section class="section home-news">
+        <div class="section-heading">
+          <div>
+            <h2>Latest news</h2>
+          </div>
+          <a class="text-link" href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="news-list">
+          {% for post in site.posts limit:4 %}
+          <a class="news-row" href="{{ post.url | relative_url }}">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+            <span>{{ post.title }}</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          {% endfor %}
+        </div>
+      </section>
     </div>
     <aside class="focus-card" aria-label="Current focus">
       <p class="card-label">Current focus</p>
@@ -18,27 +32,6 @@ layout: default
       </ul>
       {% include social-links.html %}
     </aside>
-  </div>
-</section>
-
-<section class="section section-rule">
-  <div class="shell">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Updates</p>
-        <h2>Latest news</h2>
-      </div>
-      <a class="text-link" href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">→</span></a>
-    </div>
-    <div class="news-list">
-      {% for post in site.posts limit:4 %}
-      <a class="news-row" href="{{ post.url | relative_url }}">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
-        <span>{{ post.title }}</span>
-        <span aria-hidden="true">↗</span>
-      </a>
-      {% endfor %}
-    </div>
   </div>
 </section>
 

@@ -16,6 +16,13 @@ compact_page: true
       <p class="company">{{ item.company }}</p>
       <h2>{{ item.role }}</h2>
       <p>{{ item.summary }}</p>
+      {% if item.teams %}
+      <ul>
+        {% for team in item.teams %}
+        <li>{{ team }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </section>
   {% endfor %}
